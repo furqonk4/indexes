@@ -1,1 +1,71 @@
 {"AWSTemplateFormatVersion":"2010-09-09","Description":"Root Stack for AWS Amplify Console","Parameters":{"DeploymentBucketName":{"Description":"Name of the common deployment bucket provided by the parent stack","Type":"String","Default":"DeploymentBucket"},"AuthRoleName":{"Type":"String","Default":"AuthRoleName"},"UnauthRoleName":{"Type":"String","Default":"UnauthRoleName"}},"Resources":{"DeploymentBucket":{"Type":"AWS::S3::Bucket","DeletionPolicy":"Retain","Properties":{"BucketName":{"Ref":"DeploymentBucketName"}}},"AuthRole":{"Type":"AWS::IAM::Role","Properties":{"RoleName":{"Ref":"AuthRoleName"},"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Sid":"","Effect":"Deny","Principal":{"Federated":"cognito-identity.amazonaws.com"},"Action":"sts:AssumeRoleWithWebIdentity"}]}}},"UnauthRole":{"Type":"AWS::IAM::Role","Properties":{"RoleName":{"Ref":"UnauthRoleName"},"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Sid":"","Effect":"Deny","Principal":{"Federated":"cognito-identity.amazonaws.com"},"Action":"sts:AssumeRoleWithWebIdentity"}]}}}},"Outputs":{"Region":{"Description":"CloudFormation provider root stack Region","Value":{"Ref":"AWS::Region"},"Export":{"Name":{"Fn::Sub":"${AWS::StackName}-Region"}}},"StackName":{"Description":"CloudFormation provider root stack ID","Value":{"Ref":"AWS::StackName"},"Export":{"Name":{"Fn::Sub":"${AWS::StackName}-StackName"}}},"StackId":{"Description":"CloudFormation provider root stack name","Value":{"Ref":"AWS::StackId"},"Export":{"Name":{"Fn::Sub":"${AWS::StackName}-StackId"}}},"DeploymentBucketName":{"Description":"CloudFormation provider root stack deployment bucket name","Value":{"Ref":"DeploymentBucketName"},"Export":{"Name":{"Fn::Sub":"${AWS::StackName}-DeploymentBucketName"}}},"AuthRoleArn":{"Value":{"Fn::GetAtt":["AuthRole","Arn"]}},"UnauthRoleArn":{"Value":{"Fn::GetAtt":["UnauthRole","Arn"]}},"AuthRoleName":{"Value":{"Ref":"AuthRole"}},"UnauthRoleName":{"Value":{"Ref":"UnauthRole"}}}}
+AWSTemplateFormatVersion: 2010-09-09
+Transform:
+- AWS::Serverless-2016-10-31
+- AWS::CodeStar
+Parameters:
+  ProjectId:
+    Type: String
+    Description: AWS CodeStar projectID used to associate new resources to team members
+  CodeDeployRole:
+    Type: String
+    Description: IAM role to allow AWS CodeDeploy to manage deployment of AWS Lambda
+      functions
+  Stage:
+    Type: String
+    Description: The name for a project pipeline stage, such as Staging or Prod, for
+      which resources are provisioned and deployed.
+    Default: ''
+Globals:
+  Function:
+    AutoPublishAlias: live
+    DeploymentPreference:
+      Enabled: true
+      Type: Canary10Percent5Minutes
+      Role:
+        Ref: CodeDeployRole
+Resources:
+  HelloWorld:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName:
+        Fn::Sub: awscodestar-${ProjectId}-lambda-HelloWorld
+      Handler: index.handler
+      Runtime: nodejs12.x
+      Environment:
+        Variables:
+          NODE_ENV: production
+      Role:
+        Fn::GetAtt:
+        - LambdaExecutionRole
+        - Arn
+      Events:
+        GetEvent:
+          Type: Api
+          Properties:
+            Path: /
+            Method: get
+        PostEvent:
+          Type: Api
+          Properties:
+            Path: /
+            Method: post
+      CodeUri: s3://aws-codestar-us-east-1-239443081579-indexes-pipe/e71d3371f0428c06c83a0ae6bf29d8c9
+  LambdaExecutionRole:
+    Description: Creating service role in IAM for AWS Lambda
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName:
+        Fn::Sub: CodeStar-${ProjectId}-Execution${Stage}
+      AssumeRolePolicyDocument:
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action: sts:AssumeRole
+      Path: /
+      ManagedPolicyArns:
+      - Fn::Sub: arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      PermissionsBoundary:
+        Fn::Sub: arn:${AWS::Partition}:iam::${AWS::AccountId}:policy/CodeStar_${ProjectId}_PermissionsBoundary
