@@ -1,0 +1,372 @@
+Certificate #1: EC 256 bits (SHA256withRSA)
+
+Server Key and Certificate #1
+Subject	misc-sni.google.com 
+Fingerprint SHA256: 8f9cda0404e0c760c0b8eeb7a3ae30be6c77413677fe028396c91cd9ba6a8673
+Pin SHA256: yrKDJnlfpE+rO5Mgf6gbKo9RP6PyOGvHabeuN1qeRMo=
+Common names	misc-sni.google.com
+Alternative names	misc-sni.google.com *.1ucrs.com *.abc.xyz *.adsensecustomsearchads.com *.advertisercommunity.com *.ampproject.com *.ampproject.net *.ampproject.org *.androidify.com *.app.goo.gl *.backstory-staging.chronicle.security *.backstory.chronicle.security *.backstory.chroniclesec.com *.brocaproject.com *.cdn.ampproject.org *.chat.gle *.chronicle.security *.chronicleforgood.com *.chroniclesec.com *.composer-dev.cloud.google.com *.composer-qa.cloud.google.com *.composer-staging.cloud.google.com *.composer.cloud.google.com *.crashlytics.goog *.crossmediapanel.com *.datafusion-api-dev.cloud.google.com *.datafusion-api-staging.cloud.google.com *.datafusion-api.cloud.google.com *.datafusion-dev.cloud.google.com *.datafusion-staging.cloud.google.com *.datafusion.cloud.google.com *.datalab.cloud.google.com *.dataliberation.org *.dataproc-staging.cloud.google.com *.dataproc-test.cloud.google.com *.dataproc.cloud.google.com *.de.advertisercommunity.com *.de.gateway.dev *.dev.google-syndication.com *.digitalassetlinks.org *.domains.google *.earlydays.google *.earthengine.google.co.in *.earthengine.google.com *.en.advertisercommunity.com *.es.advertisercommunity.com *.ew.gateway.dev *.fiber.google.com *.floonet.goog *.fr.advertisercommunity.com *.g.dev *.g.page *.gateway.dev *.gmbads.gle *.go-lang.com *.go-lang.net *.go-lang.org *.golang.com *.golang.google.cn *.golang.net *.golang.org *.google-syndication.com *.googleacquisitionmigration.com *.googleblog.com *.googlecert.net *.grow.google *.gvt5.com *.hats.goog *.healthcare.cloud.google.com *.hey.gle *.id.advertisercommunity.com *.it.advertisercommunity.com *.ja.advertisercommunity.com *.lanternal.com *.liftware.com *.liftware.jp *.macservice.goog *.mapmaker.google.com *.microhost.google.com *.nel.goog *.nomulus.foo *.notebooks.cloud.google.com *.ok.gle *.ordering.page *.picasaweb.com *.picasaweb.net *.picasaweb.org *.picnik.com *.pipelines.cloud.google.com *.pki.goog *.pl.advertisercommunity.com *.podcasts.goog *.pt.advertisercommunity.com *.rbm.goog *.recaptcha.ampproject.net *.ru.advertisercommunity.com *.savethedate.foo *.searchingforsyria.org *.source.bazel.build *.stage.advertisercommunity.com *.staging.google-syndication.com *.tfhub.dev *.th.advertisercommunity.com *.tiltbrush.com *.uc.gateway.dev *.vi.advertisercommunity.com *.webmproject.org *.webpkgcache.com *.xn--9kr7l.com *.xn--flw351e.com *.xn--ggle-55da.com *.xn--gogl-0nd52e.com *.xn--gogl-1nd42e.com *.xn--ngstr-lra8j.com *.xplr.co *.zh.advertisercommunity.com *.zynamics.com 1ucrs.com abc.xyz admin.health.google.com adsense.com adsensecustomsearchads.com adsenseformobileapps.com advertisercommunity.com ampproject.com ampproject.net ampproject.org androidify.com app.goo.gl brocaproject.com bugs.webrtc.org chat.gle chronicle.security chronicleforgood.com chroniclesec.com code.webrtc.org colab-sandbox.research.google.com colab.research.google.com crashlytics.goog crossmediapanel.com dataliberation.org datasetsearch.research.google.com de.advertisercommunity.com deepmind.com dg-meta.video.google.com digitalassetlinks.org domains.google earlydays.google ehr-search.health.google.com email.grow.google.com en.advertisercommunity.com es.advertisercommunity.com fastlane.ci floonet.goog fr.advertisercommunity.com g.dev g.page gapi.waze.com gmbads.gle go-lang.com go-lang.net go-lang.org golang.com golang.google.cn golang.net golang.org googleblog.com googlecert.net googlestore.com grow.google hats.goog hey.gle iamremarkable.org id.advertisercommunity.com it.advertisercommunity.com ja.advertisercommunity.com lanternal.com lers.google liftware.com liftware.jp macservice.goog nel.goog nomulus.foo ok.gle ordering.page picasaweb.com picasaweb.net picasaweb.org picnik.com pixate.com pki.goog pl.advertisercommunity.com pt.advertisercommunity.com rbm.goog registry-qa.google registry-sandbox.google registry.google ru.advertisercommunity.com savethedate.foo searchingforsyria.org source.bazel.build sre.google stage.advertisercommunity.com support.registry-qa.google support.registry-sandbox.google support.registry.google tfhub.dev th.advertisercommunity.com thegooglestore.com tiltbrush.com trends.google vi.advertisercommunity.com webmproject.org webpkgcache.com www.adsense.com www.deepmind.com www.googlestore.com www.iamremarkable.org www.pixate.com www.registry-qa.google www.registry-sandbox.google www.registry.google www.sre.google www.thegooglestore.com www.trends.google www.yearinsearch.google xn--9kr7l.com xn--flw351e.com xn--ggle-55da.com xn--gogl-0nd52e.com xn--gogl-1nd42e.com xn--ngstr-lra8j.com xplr.co yearinsearch.google zh.advertisercommunity.com zynamics.com
+Serial Number	4cf1c6d2b95a255b0300000000c7cd5e
+Valid from	Tue, 05 Jan 2021 12:07:34 UTC
+Valid until	Tue, 30 Mar 2021 12:07:33 UTC (expires in 2 months and 2 days)
+Key	EC 256 bits
+Weak key (Debian)	No
+Issuer	GTS CA 1O1 
+AIA: http://pki.goog/gsr2/GTS1O1.crt 
+Signature algorithm	SHA256withRSA
+Extended Validation	No
+Certificate Transparency	Yes (certificate)
+OCSP Must Staple	No
+Revocation information	CRL, OCSP 
+CRL: http://crl.pki.goog/GTS1O1core.crl 
+OCSP: http://ocsp.pki.goog/gts1o1core 
+Revocation status	Good (not revoked)
+DNS CAA	Yes 
+policy host: domains.google
+issue: pki.goog flags:0
+issue: digicert.com flags:0
+Trusted	Yes 
+Mozilla  Apple  Android  Java  Windows 
+
+
+
+Additional Certificates (if supplied)
+Certificates provided	2 (7187 bytes)
+Chain issues	None
+#2
+Subject	GTS CA 1O1 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs=
+Valid until	Wed, 15 Dec 2021 00:00:42 UTC (expires in 10 months and 16 days)
+Key	RSA 2048 bits (e 65537)
+Issuer	GlobalSign
+Signature algorithm	SHA256withRSA
+
+
+
+Hide Certification Paths Certification Paths
+MozillaAppleAndroidJavaWindows
+Path #1: Trusted  STATIC-PIN
+1	Sent by server	misc-sni.google.com 
+Fingerprint SHA256: 8f9cda0404e0c760c0b8eeb7a3ae30be6c77413677fe028396c91cd9ba6a8673
+Pin SHA256: yrKDJnlfpE+rO5Mgf6gbKo9RP6PyOGvHabeuN1qeRMo= 
+EC 256 bits / SHA256withRSA
+2	Sent by server	GTS CA 1O1  STATIC-PIN 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs= 
+RSA 2048 bits (e 65537) / SHA256withRSA
+3	In trust store	GlobalSign  STATIC-PIN   Self-signed 
+Fingerprint SHA256: ca42dd41745fd0b81eb902362cf9d8bf719da1bd1b1efc946f5b4c99f42c1b9e
+Pin SHA256: iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0= 
+RSA 2048 bits (e 65537) / SHA1withRSA 
+Weak or insecure signature, but no impact on root certificate
+Certificate #2: RSA 2048 bits (SHA256withRSA) No SNI Hide Server Certificate
+
+Server Key and Certificate #1
+Subject	*.google.com 
+Fingerprint SHA256: 9afb8d14bd64754293261d184883d312047facdbbdd4b42d458cf213333d66e0
+Pin SHA256: SVY7Ri0N73dQIh1t1llJwMP/YLPV7m4pjip+t8m3dks=
+Common names	*.google.com
+Alternative names	*.google.com *.android.com *.appengine.google.com *.bdn.dev *.cloud.google.com *.crowdsource.google.com *.datacompute.google.com *.g.co *.gcp.gvt2.com *.gcpcdn.gvt1.com *.ggpht.cn *.gkecnapps.cn *.google-analytics.com *.google.ca *.google.cl *.google.co.in *.google.co.jp *.google.co.uk *.google.com.ar *.google.com.au *.google.com.br *.google.com.co *.google.com.mx *.google.com.tr *.google.com.vn *.google.de *.google.es *.google.fr *.google.hu *.google.it *.google.nl *.google.pl *.google.pt *.googleadapis.com *.googleapis.cn *.googlecnapps.cn *.googlecommerce.com *.googlevideo.com *.gstatic.cn *.gstatic.com *.gstaticcnapps.cn *.gvt1.com *.gvt2.com *.metric.gstatic.com *.urchin.com *.url.google.com *.wear.gkecnapps.cn *.youtube-nocookie.com *.youtube.com *.youtubeeducation.com *.youtubekids.com *.yt.be *.ytimg.com android.clients.google.com android.com developer.android.google.cn developers.android.google.cn g.co ggpht.cn gkecnapps.cn goo.gl google-analytics.com google.com googlecnapps.cn googlecommerce.com source.android.google.cn urchin.com www.goo.gl youtu.be youtube.com youtubeeducation.com youtubekids.com yt.be   MISMATCH
+Serial Number	73b481383f936f6b0300000000c7cbb4
+Valid from	Tue, 05 Jan 2021 11:53:32 UTC
+Valid until	Tue, 30 Mar 2021 11:53:31 UTC (expires in 2 months and 2 days)
+Key	RSA 2048 bits (e 65537)
+Weak key (Debian)	No
+Issuer	GTS CA 1O1 
+AIA: http://pki.goog/gsr2/GTS1O1.crt 
+Signature algorithm	SHA256withRSA
+Extended Validation	No
+Certificate Transparency	Yes (certificate)
+OCSP Must Staple	No
+Revocation information	CRL, OCSP 
+CRL: http://crl.pki.goog/GTS1O1core.crl 
+OCSP: http://ocsp.pki.goog/gts1o1core 
+Revocation status	Good (not revoked)
+Trusted	No   NOT TRUSTED 
+Mozilla  Apple  Android  Java  Windows 
+
+
+
+Additional Certificates (if supplied)
+Certificates provided	2 (3724 bytes)
+Chain issues	None
+#2
+Subject	GTS CA 1O1 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs=
+Valid until	Wed, 15 Dec 2021 00:00:42 UTC (expires in 10 months and 16 days)
+Key	RSA 2048 bits (e 65537)
+Issuer	GlobalSign
+Signature algorithm	SHA256withRSA
+
+
+
+Hide Certification Paths Certification Paths
+MozillaAppleAndroidJavaWindows
+Path #1: Not trusted (invalid certificate [Fingerprint SHA256: 9afb8d14bd64754293261d184883d312047facdbbdd4b42d458cf213333d66e0])
+1	Sent by server	*.google.com 
+Fingerprint SHA256: 9afb8d14bd64754293261d184883d312047facdbbdd4b42d458cf213333d66e0
+Pin SHA256: SVY7Ri0N73dQIh1t1llJwMP/YLPV7m4pjip+t8m3dks= 
+RSA 2048 bits (e 65537) / SHA256withRSA
+2	Sent by server	GTS CA 1O1  STATIC-PIN 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs= 
+RSA 2048 bits (e 65537) / SHA256withRSA
+3	In trust store	GlobalSign  STATIC-PIN   Self-signed 
+Fingerprint SHA256: ca42dd41745fd0b81eb902362cf9d8bf719da1bd1b1efc946f5b4c99f42c1b9e
+Pin SHA256: iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0= 
+RSA 2048 bits (e 65537) / SHA1withRSA 
+Weak or insecure signature, but no impact on root certificate
+Certificate #3: RSA 2048 bits (SHA256withRSA)
+
+Server Key and Certificate #1
+Subject	misc-sni.google.com 
+Fingerprint SHA256: 4eade6bb6ffc4fcc6a7d65e0978c8792cc80c369e4d1c62b759a467df4fa9ef0
+Pin SHA256: b2nuMED4Qu1jmwD8qwua0XKXsyzYwjh+iK/+gwRa7IE=
+Common names	misc-sni.google.com
+Alternative names	misc-sni.google.com *.1ucrs.com *.abc.xyz *.adsensecustomsearchads.com *.advertisercommunity.com *.ampproject.com *.ampproject.net *.ampproject.org *.androidify.com *.app.goo.gl *.backstory-staging.chronicle.security *.backstory.chronicle.security *.backstory.chroniclesec.com *.brocaproject.com *.cdn.ampproject.org *.chat.gle *.chronicle.security *.chronicleforgood.com *.chroniclesec.com *.composer-dev.cloud.google.com *.composer-qa.cloud.google.com *.composer-staging.cloud.google.com *.composer.cloud.google.com *.crashlytics.goog *.crossmediapanel.com *.datafusion-api-dev.cloud.google.com *.datafusion-api-staging.cloud.google.com *.datafusion-api.cloud.google.com *.datafusion-dev.cloud.google.com *.datafusion-staging.cloud.google.com *.datafusion.cloud.google.com *.datalab.cloud.google.com *.dataliberation.org *.dataproc-staging.cloud.google.com *.dataproc-test.cloud.google.com *.dataproc.cloud.google.com *.de.advertisercommunity.com *.de.gateway.dev *.dev.google-syndication.com *.digitalassetlinks.org *.domains.google *.earlydays.google *.earthengine.google.co.in *.earthengine.google.com *.en.advertisercommunity.com *.es.advertisercommunity.com *.ew.gateway.dev *.fiber.google.com *.floonet.goog *.fr.advertisercommunity.com *.g.dev *.g.page *.gateway.dev *.gmbads.gle *.go-lang.com *.go-lang.net *.go-lang.org *.golang.com *.golang.google.cn *.golang.net *.golang.org *.google-syndication.com *.googleacquisitionmigration.com *.googleblog.com *.googlecert.net *.grow.google *.gvt5.com *.hats.goog *.healthcare.cloud.google.com *.hey.gle *.id.advertisercommunity.com *.it.advertisercommunity.com *.ja.advertisercommunity.com *.lanternal.com *.liftware.com *.liftware.jp *.macservice.goog *.mapmaker.google.com *.microhost.google.com *.nel.goog *.nomulus.foo *.notebooks.cloud.google.com *.ok.gle *.ordering.page *.picasaweb.com *.picasaweb.net *.picasaweb.org *.picnik.com *.pipelines.cloud.google.com *.pki.goog *.pl.advertisercommunity.com *.podcasts.goog *.pt.advertisercommunity.com *.rbm.goog *.recaptcha.ampproject.net *.ru.advertisercommunity.com *.savethedate.foo *.searchingforsyria.org *.source.bazel.build *.stage.advertisercommunity.com *.staging.google-syndication.com *.tfhub.dev *.th.advertisercommunity.com *.tiltbrush.com *.uc.gateway.dev *.vi.advertisercommunity.com *.webmproject.org *.webpkgcache.com *.xn--9kr7l.com *.xn--flw351e.com *.xn--ggle-55da.com *.xn--gogl-0nd52e.com *.xn--gogl-1nd42e.com *.xn--ngstr-lra8j.com *.xplr.co *.zh.advertisercommunity.com *.zynamics.com 1ucrs.com abc.xyz admin.health.google.com adsense.com adsensecustomsearchads.com adsenseformobileapps.com advertisercommunity.com ampproject.com ampproject.net ampproject.org androidify.com app.goo.gl brocaproject.com bugs.webrtc.org chat.gle chronicle.security chronicleforgood.com chroniclesec.com code.webrtc.org colab-sandbox.research.google.com colab.research.google.com crashlytics.goog crossmediapanel.com dataliberation.org datasetsearch.research.google.com de.advertisercommunity.com deepmind.com dg-meta.video.google.com digitalassetlinks.org domains.google earlydays.google ehr-search.health.google.com email.grow.google.com en.advertisercommunity.com es.advertisercommunity.com fastlane.ci floonet.goog fr.advertisercommunity.com g.dev g.page gapi.waze.com gmbads.gle go-lang.com go-lang.net go-lang.org golang.com golang.google.cn golang.net golang.org googleblog.com googlecert.net googlestore.com grow.google hats.goog hey.gle iamremarkable.org id.advertisercommunity.com it.advertisercommunity.com ja.advertisercommunity.com lanternal.com lers.google liftware.com liftware.jp macservice.goog nel.goog nomulus.foo ok.gle ordering.page picasaweb.com picasaweb.net picasaweb.org picnik.com pixate.com pki.goog pl.advertisercommunity.com pt.advertisercommunity.com rbm.goog registry-qa.google registry-sandbox.google registry.google ru.advertisercommunity.com savethedate.foo searchingforsyria.org source.bazel.build sre.google stage.advertisercommunity.com support.registry-qa.google support.registry-sandbox.google support.registry.google tfhub.dev th.advertisercommunity.com thegooglestore.com tiltbrush.com trends.google vi.advertisercommunity.com webmproject.org webpkgcache.com www.adsense.com www.deepmind.com www.googlestore.com www.iamremarkable.org www.pixate.com www.registry-qa.google www.registry-sandbox.google www.registry.google www.sre.google www.thegooglestore.com www.trends.google www.yearinsearch.google xn--9kr7l.com xn--flw351e.com xn--ggle-55da.com xn--gogl-0nd52e.com xn--gogl-1nd42e.com xn--ngstr-lra8j.com xplr.co yearinsearch.google zh.advertisercommunity.com zynamics.com
+Serial Number	31f2344d2a0b88b10500000000858fe6
+Valid from	Tue, 05 Jan 2021 11:54:04 UTC
+Valid until	Tue, 30 Mar 2021 11:54:03 UTC (expires in 2 months and 2 days)
+Key	RSA 2048 bits (e 65537)
+Weak key (Debian)	No
+Issuer	GTS CA 1O1 
+AIA: http://pki.goog/gsr2/GTS1O1.crt 
+Signature algorithm	SHA256withRSA
+Extended Validation	No
+Certificate Transparency	Yes (certificate)
+OCSP Must Staple	No
+Revocation information	CRL, OCSP 
+CRL: http://crl.pki.goog/GTS1O1core.crl 
+OCSP: http://ocsp.pki.goog/gts1o1core 
+Revocation status	Good (not revoked)
+DNS CAA	Yes 
+policy host: domains.google
+issue: pki.goog flags:0
+issue: digicert.com flags:0
+Trusted	Yes 
+Mozilla  Apple  Android  Java  Windows 
+
+
+
+Additional Certificates (if supplied)
+Certificates provided	2 (7390 bytes)
+Chain issues	None
+#2
+Subject	GTS CA 1O1 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs=
+Valid until	Wed, 15 Dec 2021 00:00:42 UTC (expires in 10 months and 16 days)
+Key	RSA 2048 bits (e 65537)
+Issuer	GlobalSign
+Signature algorithm	SHA256withRSA
+
+
+
+Hide Certification Paths Certification Paths
+MozillaAppleAndroidJavaWindows
+Path #1: Trusted  STATIC-PIN
+1	Sent by server	misc-sni.google.com 
+Fingerprint SHA256: 4eade6bb6ffc4fcc6a7d65e0978c8792cc80c369e4d1c62b759a467df4fa9ef0
+Pin SHA256: b2nuMED4Qu1jmwD8qwua0XKXsyzYwjh+iK/+gwRa7IE= 
+RSA 2048 bits (e 65537) / SHA256withRSA
+2	Sent by server	GTS CA 1O1  STATIC-PIN 
+Fingerprint SHA256: 95c074e35902a14abd9d19afb6e7f80e669ff8e2363270539d963613f04aaa21
+Pin SHA256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs= 
+RSA 2048 bits (e 65537) / SHA256withRSA
+3	In trust store	GlobalSign  STATIC-PIN   Self-signed 
+Fingerprint SHA256: ca42dd41745fd0b81eb902362cf9d8bf719da1bd1b1efc946f5b4c99f42c1b9e
+Pin SHA256: iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0= 
+RSA 2048 bits (e 65537) / SHA1withRSA 
+Weak or insecure signature, but no impact on root certificate
+Configuration
+
+Protocols
+TLS 1.3	Yes
+TLS 1.2	Yes*
+TLS 1.1	Yes
+TLS 1.0	Yes*
+SSL 3	No
+SSL 2	No
+(*) Experimental: Server negotiated using No-SNI
+
+
+
+Cipher Suites
+# TLS 1.3 (server has no preference)
+TLS_AES_128_GCM_SHA256 (0x1301)   ECDH x25519 (eq. 3072 bits RSA)   FS	128
+TLS_AES_256_GCM_SHA384 (0x1302)   ECDH x25519 (eq. 3072 bits RSA)   FS	256
+TLS_CHACHA20_POLY1305_SHA256 (0x1303)   ECDH x25519 (eq. 3072 bits RSA)   FS	256
+# TLS 1.2 (suites in server-preferred order)
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)   ECDH x25519 (eq. 3072 bits RSA)   FS	128
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)   ECDH x25519 (eq. 3072 bits RSA)   FS	256P
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)   ECDH x25519 (eq. 3072 bits RSA)   FS	256
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK	128
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK	256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)   ECDH x25519 (eq. 3072 bits RSA)   FS	128
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)   ECDH x25519 (eq. 3072 bits RSA)   FS	256P
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)   ECDH x25519 (eq. 3072 bits RSA)   FS	256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK	128
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK	256
+TLS_RSA_WITH_AES_128_GCM_SHA256 (0x9c)   WEAK	128
+TLS_RSA_WITH_AES_256_GCM_SHA384 (0x9d)   WEAK	256
+TLS_RSA_WITH_AES_128_CBC_SHA (0x2f)   WEAK	128
+TLS_RSA_WITH_AES_256_CBC_SHA (0x35)   WEAK	256
+TLS_RSA_WITH_3DES_EDE_CBC_SHA (0xa)   WEAK	112
+# TLS 1.1 (suites in server-preferred order)
+# TLS 1.0 (suites in server-preferred order)
+(P) This server prefers ChaCha20 suites with clients that don't have AES-NI (e.g., Android devices)	
+
+
+
+Handshake Simulation
+Android 2.3.7   No SNI 2	Incorrect certificate because this client doesn't support SNI
+RSA 2048 (SHA256)   |  TLS 1.0  |  TLS_RSA_WITH_AES_128_CBC_SHA
+Android 4.0.4	RSA 2048 (SHA256)  	TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.1.1	RSA 2048 (SHA256)  	TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.2.2	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.3	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.4.2	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 5.0.0	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 6.0	EC 256 (SHA256)  	TLS 1.2 > http/1.1  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 7.0	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 8.0	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 8.1	-  	TLS 1.3	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 9.0	-  	TLS 1.3	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Baidu Jan 2015	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+BingPreview Jan 2015	RSA 2048 (SHA256)  	TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Chrome 49 / XP SP3	RSA 2048 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Chrome 69 / Win 7  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Chrome 70 / Win 10	-  	TLS 1.3	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Chrome 80 / Win 10  R	-  	TLS 1.3	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Firefox 31.3.0 ESR / Win 7	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 47 / Win 7  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 49 / XP SP3	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 62 / Win 7  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Firefox 73 / Win 10  R	-  	TLS 1.3	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Googlebot Feb 2018	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+IE 7 / Vista	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 8 / XP   No FS 1   No SNI 2	Incorrect certificate because this client doesn't support SNI
+RSA 2048 (SHA256)   |  TLS 1.0  |  TLS_RSA_WITH_3DES_EDE_CBC_SHA
+IE 8-10 / Win 7  R	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win 7  R	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win 8.1  R	EC 256 (SHA256)  	TLS 1.2 > http/1.1  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 10 / Win Phone 8.0	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1  R	EC 256 (SHA256)  	TLS 1.2 > http/1.1  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1 Update  R	EC 256 (SHA256)  	TLS 1.2 > http/1.1  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Edge 15 / Win 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 16 / Win 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 18 / Win 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 13 / Win Phone 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 6u45   No SNI 2	Incorrect certificate because this client doesn't support SNI
+RSA 2048 (SHA256)   |  TLS 1.0  |  TLS_RSA_WITH_AES_128_CBC_SHA
+Java 7u25	EC 256 (SHA256)  	TLS 1.0	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Java 8u161	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 11.0.3	-  	TLS 1.3	TLS_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 12.0.1	-  	TLS 1.3	TLS_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 0.9.8y	RSA 2048 (SHA256)  	TLS 1.0	TLS_RSA_WITH_AES_128_CBC_SHA  No FS
+OpenSSL 1.0.1l  R	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 1.0.2s  R	RSA 2048 (SHA256)  	TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 1.1.0k  R	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+OpenSSL 1.1.1c  R	-  	TLS 1.3	TLS_AES_256_GCM_SHA384   ECDH x25519  FS
+Safari 5.1.9 / OS X 10.6.8	RSA 2048 (SHA256)  	TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 6 / iOS 6.0.1	RSA 2048 (SHA256)  	TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 6.0.4 / OS X 10.8.4  R	RSA 2048 (SHA256)  	TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 7 / iOS 7.1  R	RSA 2048 (SHA256)  	TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 7 / OS X 10.9  R	RSA 2048 (SHA256)  	TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 8 / iOS 8.4  R	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 8 / OS X 10.10  R	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 9 / iOS 9  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 9 / OS X 10.11  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / iOS 10  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / OS X 10.12  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 12.1.2 / MacOS 10.14.6 Beta  R	-  	TLS 1.3	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Safari 12.1.1 / iOS 12.3.1  R	-  	TLS 1.3	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Apple ATS 9 / iOS 9  R	EC 256 (SHA256)  	TLS 1.2 > h2  	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Yahoo Slurp Jan 2015	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+YandexBot Jan 2015	EC 256 (SHA256)  	TLS 1.2	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+# Not simulated clients (Protocol mismatch)
+IE 6 / XP   No FS 1   No SNI 2	Protocol mismatch (not simulated)
+(1) Clients that do not support Forward Secrecy (FS) are excluded when determining support for it.
+(2) No support for virtual SSL hosting (SNI). Connects to the default site if the server uses SNI.
+(3) Only first connection attempt simulated. Browsers sometimes retry with a lower protocol version.
+(R) Denotes a reference browser or client, with which we expect better effective security.
+(All) We use defaults, but some platforms do not use their best protocols and features (e.g., Java 6 & 7, older IE).
+(All) Certificate trust is not checked in handshake simulation, we only perform TLS handshake.
+
+
+
+Protocol Details
+DROWN	No, server keys and hostname not seen elsewhere with SSLv2
+(1) For a better understanding of this test, please read this longer explanation
+(2) Key usage data kindly provided by the Censys network search engine; original DROWN website here
+(3) Censys data is only indicative of possible key and certificate reuse; possibly out-of-date and not complete
+Secure Renegotiation	Supported
+Secure Client-Initiated Renegotiation	No
+Insecure Client-Initiated Renegotiation	No
+BEAST attack	Not mitigated server-side (more info)   TLS 1.0: 0xc009
+POODLE (SSLv3)	No, SSL 3 not supported (more info)
+POODLE (TLS)	No (more info)
+Zombie POODLE	No (more info)   TLS 1.2 : 0xc009
+GOLDENDOODLE	No (more info)   TLS 1.2 : 0xc009
+OpenSSL 0-Length	No (more info)   TLS 1.2 : 0xc009
+Sleeping POODLE	No (more info)   TLS 1.2 : 0xc009
+Downgrade attack prevention	Yes, TLS_FALLBACK_SCSV supported (more info)
+SSL/TLS compression	No
+RC4	No
+Heartbeat (extension)	No
+Heartbleed (vulnerability)	No (more info)
+Ticketbleed (vulnerability)	No (more info)
+OpenSSL CCS vuln. (CVE-2014-0224)	No (more info)
+OpenSSL Padding Oracle vuln.
+(CVE-2016-2107)	No (more info)
+ROBOT (vulnerability)	No (more info)
+Forward Secrecy	With modern browsers (more info)
+ALPN	Yes   h2 http/1.1
+NPN	Yes   grpc-exp h2 http/1.1
+Session resumption (caching)	No (IDs assigned but not accepted)
+Session resumption (tickets)	Yes
+OCSP stapling	No
+Strict Transport Security (HSTS)	No
+HSTS Preloading	Chrome  Edge  Firefox  IE   
+Public Key Pinning (HPKP)	No (more info)
+Public Key Pinning Report-Only	No
+Public Key Pinning (Static)	Yes
+includeSubDomains: false
+report-uri: http://clients3.google.com/cert_upload_json
+pin-sha256: IPMbDAjLVSGntGO3WP53X/zilCVndez5YJ2+vJvhJsA=
+pin-sha256: YZPgTZ+woNCCCIW3LH2CxQeLzB/1m42QcCTBSdgayjs=
+pin-sha256: hxqRlPTu1bMS/0DITB1SSu0vd4u/8l8TjPgfaAp63Gc=
+pin-sha256: Vfd95BwDeSQo+NUYxVEEIlvkOlWY2SalKK1lPhzOx78=
+pin-sha256: QXnt2YHvdHR3tJYmQIr0Paosp6t/nggsEGD4QJZ3Q0g=
+pin-sha256: mEflZT5enoR1FuXLgYYGqnVEoZvmf9c2bVBpiOjYQ0c=
+pin-sha256: iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0=
+pin-sha256: hxrRCWbIjB5FGRZv++qAms7uX69qFC45aBhVpeGclco= (Forbidden)
+pin-sha256: SG/sBoMJc9IgJ8+dGgIHyTLvz7wyVBio7lMoDanPuRk= (Forbidden)
+pin-sha256: LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A= (Forbidden)
+Long handshake intolerance	No
+TLS extension intolerance	No
+TLS version intolerance	No
+Incorrect SNI alerts	No
+Uses common DH primes	No, DHE suites not supported
+DH public server param (Ys) reuse	No, DHE suites not supported
+ECDH public server param reuse	No
+Supported Named Groups	x25519, secp256r1 (server preferred order)
+SSL 2 handshake compatibility	Yes
+0-RTT enabled	No
+
+
+ 
+HTTP Requests
+1 https://domains.google/  (HTTP/1.1 200 OK)
+
+
+
+Miscellaneous
+Test date	Thu, 28 Jan 2021 05:01:08 UTC
+Test duration	105.94 seconds
+HTTP status code	200
+HTTP server signature	sffe
+Server hostname	nusapay.net
