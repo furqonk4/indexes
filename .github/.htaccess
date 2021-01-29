@@ -1,0 +1,9 @@
+# deny access from all
+# deny access from robots
+# deny access from bots
+# deny access from bot
+# deny access from syntax
+# deny access from /
+# deny access from unknown
+# deny access from *
+# deny access from .
